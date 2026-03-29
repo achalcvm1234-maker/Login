@@ -1,6 +1,6 @@
-const supabaseUrl="PASTE_PROJECT_URL"
+const supabaseUrl="https://wdpfxnvhkyjfcvfvmjpt.supabase.co"
 
-const supabaseKey="PASTE_ANON_KEY"
+const supabaseKey="sb_publishable_Rv9FEq22N2CpG2ccq5gQhg_LPtx5eYV"
 
 const supabase=window.supabase.createClient(supabaseUrl,supabaseKey)
 
