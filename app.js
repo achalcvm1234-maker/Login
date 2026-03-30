@@ -42,7 +42,7 @@ if(error){
 alert(error.message)
 }else{
 alert("Login successful")
-window.location="dashboard.html"
+window.location.href="dashboard.html"
 }
 
 }
@@ -52,6 +52,7 @@ window.location="dashboard.html"
 async function logout(){
 
 await client.auth.signOut()
-window.location="login.html"
+
+window.location.href="login.html"
 
 }
