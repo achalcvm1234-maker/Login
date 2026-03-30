@@ -3,8 +3,7 @@
 
 <head>
 
-<title>Login</title>
-
+<title>Signup</title>
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -13,19 +12,21 @@
 
 <div class="box">
 
-<h2>Login</h2>
+<h2>Signup</h2>
 
-<input type="email" id="login_email" placeholder="Email">
+<input type="email" id="email" placeholder="Email" required>
 
-<input type="password" id="login_password" placeholder="Password">
+<input type="password" id="password" placeholder="Password" required>
 
-<button onclick="login()">Login</button>
+<button onclick="signup()">Signup</button>
 
-<a href="signup.html">Signup</a>
+<br><br>
+
+<a href="login.html">Login</a>
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="app.js"></script>
 
 </body>
